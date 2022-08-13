@@ -1,5 +1,5 @@
 package com.rafi.uts10119079_dailynotes.main.diary;
-//07 Juni 2022, 10119079, Rafi Khalifanan Azanan, IF2
+//13 Agustus 2022, 10119079, Rafi Khalifanan Azanan, IF2
 
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;

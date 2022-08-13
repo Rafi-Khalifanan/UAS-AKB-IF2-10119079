@@ -1,11 +1,13 @@
 package com.rafi.uts10119079_dailynotes.main.viewpager;
-//07 Juni 2022, 10119079, Rafi Khalifanan Azanan, IF2
+//13 Agustus 2022, 10119079, Rafi Khalifanan Azanan, IF2
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
 import com.rafi.uts10119079_dailynotes.R;
 import com.rafi.uts10119079_dailynotes.main.profile.ProfileActivity;
+import com.rafi.uts10119079_dailynotes.LoginActivity;
+import com.rafi.uts10119079_dailynotes.SignUpActivity;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -57,7 +59,7 @@ public class ViewPagerActivity extends AppCompatActivity {
                     mSLideViewPager.setCurrentItem(getitem(1),true);
                 else {
 
-                    Intent i = new Intent(ViewPagerActivity.this, ProfileActivity.class);
+                    Intent i = new Intent(ViewPagerActivity.this, LoginActivity.class);
                     startActivity(i);
                     finish();
 
@@ -69,7 +71,7 @@ public class ViewPagerActivity extends AppCompatActivity {
         skipbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(ViewPagerActivity.this,ProfileActivity.class);
+                Intent i = new Intent(ViewPagerActivity.this,LoginActivity.class);
                 startActivity(i);
                 finish();
             }

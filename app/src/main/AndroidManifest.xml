@@ -10,7 +10,13 @@
         android:roundIcon="@mipmap/ic_launcher_rafi_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.UTS10119079DailyNotes">
-        <activity android:name=".main.profile.ProfileActivity"></activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity android:name=".main.profile.ProfileActivity" />
         <activity android:name=".main.diary.UpdateActivity" />
         <activity android:name=".main.diary.SaveActivity" />
         <activity android:name=".main.diary.NotesActivity" />
@@ -19,8 +25,8 @@
         <activity android:name=".main.diary.CategoriActivity" />
         <activity
             android:name=".main.viewpager.ViewPagerActivity"
-            android:theme="@style/SplashScreenStyle"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/SplashScreenStyle">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

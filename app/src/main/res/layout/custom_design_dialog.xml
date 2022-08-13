@@ -15,7 +15,7 @@
         android:layout_marginEnd="5dp"
         android:layout_marginBottom="5dp"
         android:gravity="center"
-        android:text="Aplikasi ini dibuat oleh Rafi Khalifanan Azanan - IF2 - 10119079. Untuk memenuhi salah satu tugas UTS AKB 2022"
+        android:text="Aplikasi ini dibuat oleh Rafi Khalifanan Azanan - IF2 - 10119079. Untuk memenuhi salah satu tugas UAS AKB 2022"
         android:textSize="16sp" />
 
     <Button

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "571118233974",
+    "project_id": "daily-notes-ddf6a",
+    "storage_bucket": "daily-notes-ddf6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571118233974:android:066c90cc1537a66fad3257",
+        "android_client_info": {
+          "package_name": "com.rafi.uts10119079_dailynotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571118233974-mtu44v83c7cr34u7k36ok1v33gtaofaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnOUtJTH_IYS5FPfMDKh6UQwojHfoil4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571118233974-mtu44v83c7cr34u7k36ok1v33gtaofaa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
